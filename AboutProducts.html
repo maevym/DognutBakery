@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="AboutProductsStyle.css">
+    <script defer src="mainpage.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="wordstyle.js"></script>
+</head>
+<body>
+    <div class="aboutProduct">
+        <div class="navbar">
+            <a href="main.html">
+                <img src="images/logo.png" alt="logo DB" id="logo" >
+            </a>
+            
+            <ul id="navWEB">
+                <li><a href="ListOfProducts.html">List of Products</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="AboutProducts.html">About Products</a></li>
+            </ul>
+            <img src="images/icon.png" alt="icon" id="icon" onclick="pop()">
+            <img src="images/cancel.png" alt="cancel" id="cancel" onclick="pop()">
+        </div>
+
+        <div id="navMOB">
+            <br>
+            <a href="ListOfProducts.html">List of Products</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="AboutProducts.html">About Products</a>
+        </div>
+        
+        <div class="intro">
+            <img src="images/aboutProduct.png" alt="aboutProduct">
+
+            <h1 class="INTRO">
+                <span class="kata">A</span>
+                <span class="kata">B</span>
+                <span class="kata">O</span>
+                <span class="kata">U</span>
+                <span class="kata">T</span>
+                <span class="kata" style="color: blanchedalmond;">D</span>
+                <span class="kata" style="color: blanchedalmond;">O</span>
+                <span class="kata" style="color: blanchedalmond;">G</span>
+                <span class="kata" style="color: blanchedalmond;">N</span>
+                <span class="kata" style="color: blanchedalmond;">U</span>
+                <span class="kata" style="color: blanchedalmond;">T</span>
+            </h1>
+            
+        </div>
+
+        <div class="penjelasanDognut">
+            <h1>Here in Dognut Bakery, <br> We sell goods packages for your love one. <br> we have 4 types of product (Doughnut, Cakes, Indonesian Cake, and Cookies) <br> but we have lots of variety types. <br><br> Right now we have 4 types of Doughnut, 3 types of Cakes, <br> 3 types of Indonesian Cake, and 3 types of Cookies. <br><br> You can add product type down here on the add product form. <br><br> make sure you type the correct product name, <br> a unique product type (as creative as you could!), <br> the correct size (Small/Regular/Deluxe), <br> and the correct package (A/B/C) </h1>
+        </div>
+        
+        <div class="Pform" style="text-align: center;">
+            <h1 id="box">Add Product Form</h1>
+            <p>This is Case Sensitive! Please make sure that you input a new product type!</p>
+            <a href="ListOfProducts.html">Go to Our Product List</a>
+        </div>
+
+        <div class="formQuery" style="text-align: center;">
+            <form id="AddProd" method="POST">
+                <div class="tanya">
+                    <label for="product">Product :</label>
+                    <input id="product" type="text" required value="Doughnut/Cake/Indonesian Cake/Cookie">
+                </div>
+                <br>
+                <div class="tanya">
+                    <label for="type">Type :</label>
+                    <input id="type" type="text" required value="input Unique name here">
+                </div>
+                <br>
+                <div class="tanya">
+                    <label for="package">Package :</label>
+                    <input id="package" type="text" required value="A/B/C">
+                </div>
+                <br>
+                <div class="tanya">
+                    <label for="size">Size :</label>
+                    <input id="size" type="text" required value="Small/Reguler/Deluxe">
+                </div>
+                <br>
+                <div class="tanya">
+                    <label for="img">Image :</label>
+                    <input type="file" id="img" accept="image/*" required>
+                </div>
+                <br><br><br>
+                <button>Submit</button>
+                </form>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p>&#169;2002 Dognut Bakery</p>
+            <br>
+            <p>This Prototype is for Web Design Class at Binus University</p>
+            <br><br>
+            <p>Made By Maevy Marvella - 2440094402</p>
+            <p>Photo source : Google.com, Canva.com</p>
+            <br><br>
+            <h4><a href="#">Back To Top</a></h4>
+        </div>
+    </div>
+    
+</body>
+</html>

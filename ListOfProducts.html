@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Products</title>
+    <link rel="stylesheet" href="styleListOfProducts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script defer src="mainpage.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ListOfProduct">
+        <div class="navbar">
+            <a href="main.html">
+                <img src="images/logo.png" alt="logo DB" id="logo" >
+            </a>
+            
+            <ul id="navWEB">
+                <li><a href="ListOfProducts.html">List of Products</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="AboutProducts.html">About Products</a></li>
+            </ul>
+            <img src="images/icon.png" alt="icon" id="icon" onclick="pop()">
+            <img src="images/cancel.png" alt="cancel" id="cancel" onclick="pop()">
+        </div>
+
+        <div id="navMOB">
+            <br>
+            <a href="ListOfProducts.html">List of Products</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="AboutProducts.html">About Products</a>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner_product.png" alt="banner_product">
+        </div>
+        <div class="kontenPage">
+            <h1 style="text-align: center;">Our Product Lists</h2>
+            <div class="baris">
+                <div onclick="location.href='donutPage.html'" style="cursor: pointer;" class="baris1">
+                    <img src="images/logo_donut.png" alt="logo_donut">
+                    <h3>Dognut Doughnut</h3>
+                    <p>IDR 40K</p>
+                </div>
+                <div onclick="location.href = 'cakePage.html'" style="cursor: pointer;"class="baris1">
+                    <img src="images/logo_cake.png" alt="logo_cake">
+                    <h3>Dognut Cake</h3>
+                    <p>IDR 100K</p>
+                </div>
+                <div onclick="location.href = 'indonesianCakePage.html'" style="cursor: pointer;" class="baris1">
+                    <img src="images/logo_kue_indonesia.png" alt="logo_kue_indonesia">
+                    <h3>Dognut Indonesian Cake</h3>
+                    <p>IDR 300K</p>
+                </div>
+                <div onclick="location.href = 'cookiesPage.html'" style="cursor: pointer;"class="baris1">
+                    <img src="images/logo_cookie.png" alt="logo_cookie">
+                    <h3>Dognut Cookies</h3>
+                    <p>IDR 30K</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&#169;2002 Dognut Bakery</p>
+            <br>
+            <p>This Prototype is for Web Design Class at Binus University</p>
+            <br><br>
+            <p>Made By Maevy Marvella - 2440094402</p>
+            <p>Photo source : Google.com, Canva.com</p>
+            <br><br>
+            <h4><a href="#">Back To Top</a></h4>
+        </div>
+    </div>
+</body>
+</html>

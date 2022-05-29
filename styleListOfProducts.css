@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orelega One', cursive;
+}
+
+.listOfProduct{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 550px) {
+    #navWEB{
+        display: none;
+    }
+    #icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #cancel{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 550px){
+    #icon{
+        display: none;
+    }
+    #cancel{
+        display: none;
+    }
+    #navMOB{
+        display: none;
+    }
+}
+
+#icon{
+    margin: 0.5vw 1vw;
+    width: 5vw;
+    position: absolute;
+    padding: 0.5vw;
+    background-color: burlywood;
+}
+
+#cancel{
+    margin: 0.5vw 1vw;
+    width: 5vw;
+    position: absolute;
+    padding: 0.5vw;
+    background-color: burlywood;
+}
+
+#navMOB{
+    padding-top: 2.5vw;
+    display: none;
+}
+
+#navMOB a{
+    overflow: auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1vw;
+    padding: 2vw 2vw;
+    color: #f8cda2;
+    font-weight: lighter;
+    font-size: 2vw;
+}
+
+#navMOB a:hover{
+    background-color: #e1827f;
+    color: cornsilk;
+    font-size: 2.3vw;
+}
+
+.navbar{
+    width: 100%;
+    padding: 0.5vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar ul li:hover{
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+#logo{
+    width: 5vw;
+    margin: 0 5vw;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2vw;
+    font-size: 1.5vw;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #f8cda2;
+    font-weight: lighter;
+}
+
+.banner{
+    padding-bottom: 8vw;
+    padding-top: 8vw;
+    position: relative;
+}
+
+.banner img{ 
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.kontenPage{
+    max-width: auto;
+    margin: 1vw 0;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.kontenPage h1{
+    font-size: 3vw;
+}
+
+.baris1{
+    flex-basis: 15%;
+    margin: 2%;
+    position: relative;
+    text-align: center;
+}
+
+.baris1 h3{
+    font-size: 1.5vw;
+}
+
+.baris1 p{
+    font-size: 1vw;
+}
+
+.baris1 img{
+    width: 70%;
+    height: auto;
+}
+
+.baris1 img:hover{
+    width: 120%;
+}
+
+.baris{
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10vw;
+    margin-top: 1vw;
+}
+
+.footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: black;
+    font-size: 1vw;
+    color: burlywood;
+}
+
+.footer h4{
+    text-align: right;
+    padding-right: 5vw;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #f9e6b6;
+}
